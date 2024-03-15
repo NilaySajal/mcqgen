@@ -12,7 +12,7 @@ from langchain_community.callbacks import get_openai_callback
 
 
 #loading json file
-with open('/Users/nilaypatel/Desktop/mcqgen/Response.json','r') as file:
+with open('/home/ubuntu/mcqgen/Response.json','r') as file:
     RESPONSE_JSON = json.load(file)
 
 # Creating a title for the app
